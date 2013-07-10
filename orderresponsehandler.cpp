@@ -25,6 +25,8 @@ bool OrderResponseHandler::characters(const QString &ch)
 {
     if(inTicket)
         ticket = ch;
+
+    return true;
 }
 
 QString OrderResponseHandler::getTicket()

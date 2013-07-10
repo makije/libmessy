@@ -59,6 +59,8 @@ bool OrderHandler::characters(const QString &ch)
         order.setYellow(ch.toInt());
     else if(inOrder && inStatus)
         order.setStatus(ch.toAscii().data());
+
+    return true;
 }
 
 Order OrderHandler::getOrder()
