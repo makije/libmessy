@@ -1,1 +1,5 @@
 libmessy.pro.user
+Makefile
+*.o
+moc_*.cpp
+libmessy.so*
